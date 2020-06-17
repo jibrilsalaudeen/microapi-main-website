@@ -1,0 +1,15 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.height-100vh {
+  min-height: 100vh;
+  background: linear-gradient(
+      to left top,
+      rgba(255, 255, 255),
+      rgba(20, 15, 44, 0.8)
+    ),
+    url(/landing-assets/connected-dot.png) right no-repeat;
+}
