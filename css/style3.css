@@ -1,0 +1,163 @@
+body {
+    background: #fffdfe;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Pontano Sans;
+    font-weight: normal;
+    font-style: normal;
+}
+.container-fluid {
+    position: absolute;
+}
+
+
+.div1 {
+    background-image: url("landing-assets/rect.png");
+    background: linear-gradient(180deg,
+              rgba(54, 66, 82, 0.7)
+                0%, rgba(54, 66, 82, 0) 105.16%);
+    width: 1350px;
+    height: 502px;
+    /* left: -198.1px; */
+    background-repeat: no-repeat;
+    padding-bottom: 150px;
+
+}
+
+.div2 {
+    background-image: url("landing-assets/Rectangle\ 8.png");
+    width: 1350px;
+    height: 502px;
+    background: linear-gradient(180deg,
+                rgba(54, 66, 82, 0.7)
+                0%, rgba(54, 66, 82, 0) 100%);
+    padding-bottom: 200px;
+}
+.right {
+    position: absolute;
+    left: 1171px;
+}
+.div3 {
+    background-image: url("landing-assets/Rectangle\ 9.png");
+    width: 1350px;
+    height: 502px;
+    background: linear-gradient(180deg,
+                rgba(54, 66, 82, 0.441)
+                0%, rgba(54, 66, 82, 0) 100%);
+    padding-bottom: 250px;
+}
+
+#img1 {
+
+    float: right; 
+}
+
+#img2 {
+    float: left; 
+}
+
+#img3 {
+    width: 734px;
+    float: right;
+}
+.clearfix {
+    overflow: auto;
+    padding-left: 100px;
+    padding-top: 100px;
+  
+    color: rgba(16, 12, 12, 0.7);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+h4 {
+    color: white;
+}
+input {
+    width: 90.34px;
+    height: 35.62px;
+
+    background: linear-gradient
+                (199.04deg, rgba(54, 66, 82, 0.13) 47.45%,
+                rgba(196, 196, 196, 0.0805729) 49.57%,
+                rgba(196, 196, 196, 0.0690625) 58.68%, 
+                rgba(196, 196, 196, 0.0589062) 60.55%,
+                rgba(118, 125, 134, 0.107656) 60.55%, 
+                rgba(196, 196, 196, 0.0561979) 61.05%, 
+                rgba(196, 196, 196, 0.0392708) 64.17%, 
+                rgba(196, 196, 196, 0.0169271) 64.17%,
+                rgba(196, 196, 196, 0.00947917) 69.66%, 
+                rgba(196, 196, 196, 0) 69.66%);
+    border: 3px solid rgba(234, 222, 222, 0.58);
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+p {
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+
+#icon1 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 30.82%;
+    left: 30px;
+    color: rgba(255, 249, 249, 0.84);
+}
+
+#icon2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 30.82%;
+    left: 60px;
+    color: rgba(255, 249, 249, 0.84);
+}
+
+#a1 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 30.82%;
+    left: 750px;
+    color: rgba(255, 249, 249, 0.84);
+}
+
+#a2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 30.82%;
+    left: 830px;
+    color: rgba(255, 249, 249, 0.84);
+}
+
+#signup {
+    position: absolute;
+    width: 90.34px;
+    height: 33px;
+    left: 907.01px;
+    color: #ffffff;
+    bottom: 20.82%;
+    background: rgba(196, 196, 196, 0.08);
+    border: 3px solid rgba(234, 222, 222, 0.58);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 50.38px;
+    left: 0px;
+    bottom: 0px;
+    color: #ffffff;
+    background: rgba(0, 16, 37, 0.79);
+}
+
